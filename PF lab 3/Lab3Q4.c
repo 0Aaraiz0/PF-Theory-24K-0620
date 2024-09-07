@@ -13,12 +13,12 @@ int main(){
     } while (C<=0);
     
     // Calculations
-    A=2414/C;
+    A=2414/C; 
     B=(A/2)*118+(A/2)*123;
 
     //Displaying
-    printf("Total Fuel Consumed=%f" , A);
-    printf("Total Fuel Cost=%f" , B);
+    printf("Total Fuel Consumed=%f\n" , A);
+    printf("Total Fuel Cost=%f\n" , B);
 
 return 0;
 }
