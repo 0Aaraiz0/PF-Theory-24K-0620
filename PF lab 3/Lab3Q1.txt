@@ -1,1 +1,0 @@
-The number 3000000000 is too big to be stored in an int because int can only hold smaller numbers, up to around 2,147,483,647
