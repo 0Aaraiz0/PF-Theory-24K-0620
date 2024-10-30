@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-// Function to remove duplicate characters within each word
+// Function 
 int remove_duplicates(char arr[][30], int n) {
     int total_removed = 0;  // Track total characters removed
 
-    // Process each word
+   
     for (int d = 0; d < n; d++) {
         int len = strlen(arr[d]);
 
@@ -13,7 +13,7 @@ int remove_duplicates(char arr[][30], int n) {
         for (int i = 0; i < len; i++) {
             for (int j = i + 1; j < len; j++) {
                 if (arr[d][i] == arr[d][j]) {
-                    arr[d][j] = '?';  // Mark duplicate characters
+                    arr[d][j] = '?';  
                 }
             }
         }
@@ -27,7 +27,7 @@ int remove_duplicates(char arr[][30], int n) {
                 total_removed++;  // Increment count of removed characters
             }
         }
-        arr[d][pos] = '\0';  // Terminate each word
+        arr[d][pos] = '\0';  
     }
 
     return total_removed;
@@ -44,10 +44,10 @@ int main() {
         scanf("%s", arr[i]);
     }
 
-    // Call the function and get the total number of characters removed
+
     int removed_count = remove_duplicates(arr, n);
 
-    // Output the result
+  
     printf("Result after removing repeated characters:\n");
     for (int i = 0; i < n; i++) {
         printf("%s\n", arr[i]);
