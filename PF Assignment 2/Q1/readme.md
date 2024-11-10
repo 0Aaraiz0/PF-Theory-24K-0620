@@ -1,0 +1,1 @@
+the problem i faced was that getting the 1st largest is easy but for 2nd largest i first took appraoch of bubble sorting but i realized that would make it way more easier. since i was doing it with the friend we came up with the if condition.
